@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_acerca_de"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.andrescalpa7.masacorporalfinal.AcercaDe">
+
+    <TextView
+        android:text="2017"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvCiudad"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/tvFecha" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/IvLogo"
+        app:srcCompat="@drawable/logo"
+        android:layout_below="@+id/tvFecha"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:text="@string/elaborado_por"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvElaborado"
+        android:layout_marginTop="18dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:text="Andres Calpa Lopez"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_acercade"
+        android:layout_marginTop="16dp"
+        android:layout_alignTop="@+id/tvElaborado"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:text="@string/ingenieria_de_sistemas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvIngenieria"
+        android:layout_below="@+id/tv_acercade"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:text="@string/universidad_mariana"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvUniversidad"
+        android:layout_below="@+id/tvIngenieria"
+        android:layout_alignStart="@+id/tvIngenieria" />
+
+    <TextView
+        android:text="San Juan de Pasto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvCiudad"
+        android:layout_below="@+id/tvUniversidad"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:text="@string/regresar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="25dp"
+        android:id="@+id/bt_Regresar"
+        android:onClick="regresar"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

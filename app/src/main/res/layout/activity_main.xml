@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.andrescalpa7.masacorporalfinal.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/calcular_el_indice_de_masa_corporal"
+        android:fontFamily="casual"
+        android:textSize="18sp"
+        android:textAlignment="center"
+        android:textStyle="normal|bold"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        />
+
+    <TextView
+        android:text="@string/altura"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="73dp"
+        android:id="@+id/tv_Altura" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/et_alt"
+        tools:inputType="number|numberDecimal"
+        android:hint="@string/m"
+        android:layout_alignBaseline="@+id/tv_Altura"
+        android:layout_alignBottom="@+id/tv_Altura"
+        android:layout_alignEnd="@+id/bt_acercade" />
+
+    <TextView
+        android:text="@string/peso"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_Peso"
+        android:layout_below="@+id/et_alt"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="24dp" />
+
+    <Button
+        android:text="@string/salir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/bt_salir"
+        android:onClick="salir"
+        android:background="?attr/actionModeSplitBackground"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Widget"
+        android:fontFamily="sans-serif"
+        android:textSize="18sp"
+        android:lineSpacingExtra="14sp"
+        android:textColor="@android:color/background_light"
+        android:minHeight="30dp"
+        android:minWidth="50dip" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/cor"
+        android:id="@+id/iv_most"
+        android:layout_below="@+id/tv_res"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="21dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_res"
+        android:layout_below="@+id/button"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number|numberDecimal"
+        android:ems="10"
+        android:id="@+id/et_Peso"
+        android:hint="@string/kg"
+        android:layout_alignTop="@+id/tv_Peso"
+        android:layout_alignStart="@+id/et_alt" />
+
+    <Button
+        android:text="@string/calcular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="17dp"
+        android:id="@+id/button"
+        android:onClick="calcu"
+        android:layout_below="@+id/et_Peso"
+        android:layout_alignParentStart="true"
+        android:minHeight="40dip"
+        android:minWidth="85dip" />
+
+    <Button
+        android:text="@string/acerca_de"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/bt_acercade"
+        android:onClick="acercade"
+        android:layout_alignBaseline="@+id/bt_ver"
+        android:layout_alignBottom="@+id/bt_ver"
+        android:layout_alignParentEnd="true"
+        android:minHeight="40dip"
+        android:minWidth="85dip" />
+
+    <Button
+        android:text="@string/registro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/bt_ver"
+        android:onClick="registrar"
+        android:layout_above="@+id/tv_res"
+        android:layout_alignStart="@+id/et_Peso"
+        android:layout_marginStart="19dp"
+        android:minHeight="40dip"
+        android:minWidth="85dip" />
+
+</RelativeLayout>

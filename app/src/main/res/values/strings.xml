@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">MasaCorporalFinal</string>
+    <string name="altura">Altura:</string>
+    <string name="peso">Peso:</string>
+    <string name="m">m</string>
+    <string name="kg">kg</string>
+    <string name="calcularIndiceMasaCorporal">Calcular Indice de Masa Corporal</string>
+    <string name="calcular">Calcular</string>
+    <string name="calcular_el_indice_de_masa_corporal">Calcular el Indice de Masa Corporal</string>
+    <string name="acerca_de">Acerca de</string>
+    <string name="salir">Salir</string>
+    <string name="regresar">Regresar</string>
+    <string name="Indice1">"Indice de masa corporal: "</string>
+    <string name="IngreseValores">Ingrese Valores</string>
+    <string name="DelgadezModerada">Delgadez Moderada</string>
+    <string name="DelgadezAceptable">Delgadez Aceptable</string>
+    <string name="PesoNormal">Peso Normal</string>
+    <string name="SobrePeso">Sobre Peso</string>
+    <string name="ObesoTipo">Obeso Tipo</string>
+    <string name="DelgadezSevera">Delgadez Severa</string>
+    <string name="ingenieria_de_sistemas">Ingenieria de Sistemas</string>
+    <string name="universidad_mariana">Universidad Mariana</string>
+    <string name="elaborado_por">Elaborado por:</string>
+    <string name="ver">Ver</string>
+    <string name="registro">Registro</string>
+    <string name="altura2">Altura:</string>
+    <string name="peso2">Peso:</string>
+    <string name="alt">altura</string>
+    <string name="pes">peso</string>
+    <string name="datosGrabados">Datos grabados</string>
+</resources>

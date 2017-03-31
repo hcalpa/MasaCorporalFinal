@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Body mass</string>
+    <string name="peso">"Weight: "</string>
+    <string name="altura">"Height: "</string>
+    <string name="kg">kg</string>
+    <string name="m">m</string>
+    <string name="calcularIndiceMasaCorporal">Calculate body mass index</string>
+    <string name="acerca_de">About</string>
+    <string name="calcular">Calculate</string>
+    <string name="calcular_el_indice_de_masa_corporal">Calculate body mass index</string>
+    <string name="salir">Exit</string>
+    <string name="regresar">Return</string>
+    <string name="Indice1">"Body mass index: "</string>
+    <string name="IngreseValores">Ingress values</string>
+    <string name="DelgadezSevera">Severe thinness</string>
+    <string name="DelgadezAceptable">Thinness acceptable</string>
+    <string name="DelgadezModerada">Moderate thinness</string>
+    <string name="ObesoTipo">Obese type</string>
+    <string name="PesoNormal">Normal weight</string>
+    <string name="SobrePeso">Overweight</string>
+    <string name="elaborado_por">Produced by:</string>
+    <string name="ingenieria_de_sistemas">Systems Engineer</string>
+    <string name="universidad_mariana">Mariana University</string>
+    <string name="ver">See</string>
+    <string name="registro">Registry</string>
+    <string name="altura2">Height:</string>
+    <string name="peso2">weight</string>
+    <string name="pes">wight</string>
+    <string name="alt">Height</string>
+    <string name="datosGrabados">Recorded data</string>
+</resources>
